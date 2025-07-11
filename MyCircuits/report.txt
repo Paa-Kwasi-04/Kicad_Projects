@@ -1,0 +1,17 @@
+Info: Processing symbol 'A1:Module:Arduino_Nano'.
+Info: Processing symbol 'C1:Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm'.
+Info: Processing symbol 'C2:Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm'.
+Info: Processing symbol 'C3:Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm'.
+Info: Processing symbol 'D1:LED_THT:LED_D5.0mm'.
+Info: Processing symbol 'R1:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal'.
+Info: Processing symbol 'R2:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal'.
+Info: Processing symbol 'R3:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal'.
+Info: Processing symbol 'R4:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal'.
+Info: Processing symbol 'SW1:Button_Switch_THT:SW_PUSH_6mm'.
+Info: Processing symbol 'SW2:Button_Switch_THT:SW_PUSH_6mm'.
+Info: Processing symbol 'SW3:Button_Switch_THT:SW_PUSH_6mm'.
+Info: Processing symbol 'U1:spo2_stuff:MAX3103_Module'.
+Info: Processing symbol 'U2:spo2_stuff:SSD1036'.
+
+
+Info: Total warnings: 0, errors: 0.
