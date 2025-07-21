@@ -45,6 +45,7 @@
       "pads",
       "zones",
       "drc_warnings",
+      "drc_exclusions",
       "locked_item_shadows",
       "conflict_shadows",
       "shapes"
@@ -58,7 +59,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "MosquitoRepellant.kicad_prl",
+    "filename": "8_ChannelRelay.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
