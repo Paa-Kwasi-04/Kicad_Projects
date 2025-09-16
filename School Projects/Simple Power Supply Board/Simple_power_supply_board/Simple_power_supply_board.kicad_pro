@@ -451,7 +451,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "CarBatteryLevelDetector.kicad_pro",
+    "filename": "Simple_power_supply_board.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -619,7 +619,7 @@
   },
   "sheets": [
     [
-      "3da8ee35-cf1a-4939-884b-aa93d815861f",
+      "2f7d7295-8757-4933-8f00-f7ea6b7cab04",
       "Root"
     ]
   ],
