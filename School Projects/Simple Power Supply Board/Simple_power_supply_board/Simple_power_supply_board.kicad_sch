@@ -862,155 +862,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Polyfuse"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "F"
-				(at -2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Polyfuse"
-				(at 2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 1.27 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*polyfuse* *PTC*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Polyfuse_0_1"
-				(polyline
-					(pts
-						(xy -1.524 2.54) (xy -1.524 1.524) (xy 1.524 -1.524) (xy 1.524 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -0.762 2.54)
-					(end 0.762 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Polyfuse_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R_US"
 			(pin_numbers
 				(hide yes)
@@ -1334,10 +1185,405 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Linear:L7805"
+		(symbol "Mechanical:MountingHole"
 			(pin_names
-				(offset 0.254)
+				(offset 1.016)
 			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PTC_FUSE:RUEF300"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U1"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PTC_FUSE"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "RUEF300:RUEF300"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Littelfuse Inc."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Polymeric PTC Resettable Fuse 30V 3 A Ih Through Hole Radial, Disc"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "Radial Littelfuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/RUEF300/Littelfuse/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "RUEF300"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/RUEF300/Littelfuse/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "RUEF300_0_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.159 1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.159 1.016) (xy -1.524 -1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -1.016) (xy -0.889 1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -1.016) (xy 0.381 1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 1.016) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.016) (xy 1.651 1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.651 1.016) (xy 2.286 -1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.016) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "P$1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "P$2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Regulator_Linear:LD1117V50"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1349,7 +1595,7 @@
 					)
 				)
 			)
-			(property "Value" "L7805"
+			(property "Value" "LD1117V50"
 				(at 0 3.175 0)
 				(effects
 					(font
@@ -1358,19 +1604,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
-				(at 0.635 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf"
-				(at 0 -1.27 0)
+			(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1378,7 +1613,16 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252"
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/ld1117.pdf"
+				(at 2.54 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "800 mA Fixed Low Drop Positive Voltage Regulator (ldo). Max input 15V. Fixed Output 5.0V. TO-220-3"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1387,7 +1631,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Voltage Regulator 1.5A Positive"
+			(property "ki_keywords" "low-dropout-regulator ldo"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1396,7 +1640,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TO?252* TO?263* TO?220*"
+			(property "ki_fp_filters" "*TO*220*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1405,10 +1649,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "L7805_0_1"
+			(symbol "LD1117V50_0_1"
 				(rectangle
-					(start -5.08 1.905)
-					(end 5.08 -5.08)
+					(start -5.08 -5.08)
+					(end 5.08 1.905)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1418,18 +1662,18 @@
 					)
 				)
 			)
-			(symbol "L7805_1_1"
+			(symbol "LD1117V50_1_1"
 				(pin power_in line
 					(at -7.62 0 0)
 					(length 2.54)
-					(name "IN"
+					(name "VI"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1447,7 +1691,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1458,14 +1702,14 @@
 				(pin power_out line
 					(at 7.62 0 180)
 					(length 2.54)
-					(name "OUT"
+					(name "VO"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1839,6 +2083,16 @@
 		)
 		(uuid "8805948a-9577-4835-a773-e03aedfbd9b0")
 	)
+	(text "MOUNT HOLES"
+		(exclude_from_sim no)
+		(at 266.192 146.05 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "cb6b0b89-b557-4d86-b627-a95571c699b5")
+	)
 	(text "5V REGULATOR"
 		(exclude_from_sim no)
 		(at 109.22 156.21 0)
@@ -2177,6 +2431,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 25.4) (xy 46.99 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4038242b-bf47-490d-b40e-be42eed831c6")
+	)
+	(wire
+		(pts
 			(xy 66.04 116.84) (xy 66.04 107.95)
 		)
 		(stroke
@@ -2294,16 +2558,6 @@
 			(type default)
 		)
 		(uuid "5ef751b6-d498-4ac7-a171-c4cca290953c")
-	)
-	(wire
-		(pts
-			(xy 46.99 25.4) (xy 49.53 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62124e2d-404c-41e1-bcd5-4e69c671bb16")
 	)
 	(wire
 		(pts
@@ -2467,7 +2721,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 25.4) (xy 39.37 25.4)
+			(xy 35.56 25.4) (xy 36.83 25.4)
 		)
 		(stroke
 			(width 0)
@@ -2695,158 +2949,89 @@
 		)
 		(uuid "ff4829f2-c763-4d87-b64e-5827d36e1727")
 	)
-	(global_label "VR"
-		(shape input)
+	(label "VR"
 		(at 88.9 25.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
-		(uuid "7c953991-5ef2-4401-93d6-763dfeff0340")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.2438 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "0e2412cf-70ca-43a4-ba09-7289dd1053f9")
 	)
-	(global_label "VR"
-		(shape input)
-		(at 31.75 107.95 180)
-		(fields_autoplaced yes)
+	(label "VR"
+		(at 31.75 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left bottom)
 		)
-		(uuid "af6cfe44-f43a-40a5-adf8-50d72e43cb3c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.4062 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "68396857-1179-45e5-846e-dead27bc4ea6")
 	)
-	(global_label "3.3V"
-		(shape input)
-		(at 151.13 26.67 180)
-		(fields_autoplaced yes)
+	(label "VR"
+		(at 152.4 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left bottom)
 		)
-		(uuid "c330da4c-a26e-4a75-bb7a-d4aaf81f8154")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 144.0324 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "6f546747-0bc4-4de2-b1f7-a8403f19b58e")
 	)
-	(global_label "VR"
-		(shape input)
-		(at 152.4 111.76 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cef9dd62-036f-45bf-a504-a85c296b4c6a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.0562 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "5V"
-		(shape input)
-		(at 186.69 25.4 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d00876f9-4700-4de7-8f5b-e62df04a995d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 181.4067 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "3.3V"
-		(shape input)
-		(at 222.25 111.76 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e808a6ff-b6c1-4685-8fc0-5bb724af3a08")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.3476 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "5V"
-		(shape input)
+	(label "5V"
 		(at 99.06 107.95 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
-		(uuid "f2a33e56-6cc2-4ef2-b49b-2c78c6532bc3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.3433 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
+		(uuid "8582cffe-3b1d-48da-95df-c1595df94788")
+	)
+	(label "3.3V"
+		(at 222.25 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left bottom)
+		)
+		(uuid "a0a379c0-d408-4618-aa69-65c75f59eb67")
+	)
+	(label "3.3V"
+		(at 151.13 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e65b4432-2aa8-4b78-b34b-7c6423596643")
+	)
+	(label "5V"
+		(at 186.69 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fdaf6b3f-d6f4-4c61-8c9a-511010769af0")
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 248.92 87.63) (xy 284.48 87.63) (xy 284.48 165.1) (xy 248.92 165.1)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 85e44c4d-84df-407e-9ec1-1327c2572279)
 		)
 	)
 	(rule_area
@@ -2919,7 +3104,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02009ea5-6353-4a35-a395-d41507c05110")
-		(property "Reference" "C7"
+		(property "Reference" "C5"
 			(at 81.28 118.3639 0)
 			(effects
 				(font
@@ -2973,7 +3158,7 @@
 		(instances
 			(project "Simple_power_supply_board"
 				(path "/2f7d7295-8757-4933-8f00-f7ea6b7cab04"
-					(reference "C7")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -2981,7 +3166,7 @@
 	)
 	(symbol
 		(lib_id "Diode:SS14")
-		(at 43.18 25.4 180)
+		(at 40.64 25.4 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2990,7 +3175,7 @@
 		(fields_autoplaced yes)
 		(uuid "04159bf6-259d-4a31-95e7-09893b087c86")
 		(property "Reference" "D1"
-			(at 43.4975 19.05 0)
+			(at 40.9575 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2998,7 +3183,7 @@
 			)
 		)
 		(property "Value" "SS14"
-			(at 43.4975 21.59 0)
+			(at 40.9575 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3006,7 +3191,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 43.18 20.955 0)
+			(at 40.64 20.955 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3015,7 +3200,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/88746/ss12.pdf"
-			(at 43.18 25.4 0)
+			(at 40.64 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3024,7 +3209,7 @@
 			)
 		)
 		(property "Description" "40V 1A Schottky Diode, SMA"
-			(at 43.18 25.4 0)
+			(at 40.64 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3033,7 +3218,7 @@
 			)
 		)
 		(property "Sim.Library" ".\\"
-			(at 43.18 25.4 0)
+			(at 40.64 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3066,7 +3251,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07900a6a-9572-415b-b888-ef8f33958cf4")
-		(property "Reference" "C6"
+		(property "Reference" "C8"
 			(at 209.55 124.7139 0)
 			(effects
 				(font
@@ -3120,50 +3305,51 @@
 		(instances
 			(project "Simple_power_supply_board"
 				(path "/2f7d7295-8757-4933-8f00-f7ea6b7cab04"
-					(reference "C6")
+					(reference "C8")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:Polyfuse")
-		(at 53.34 25.4 90)
+		(lib_id "Mechanical:MountingHole")
+		(at 256.54 127 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "092c2157-9b92-4776-ab2e-f10b04a3bebb")
-		(property "Reference" "F1"
-			(at 53.34 19.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "500mA / 1A"
-			(at 53.34 21.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 24.13 0)
+		(uuid "0863c37a-70eb-4bf9-be27-7ca3b69598ee")
+		(property "Reference" "H4"
+			(at 259.08 125.7299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 259.08 128.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopOnly"
+			(at 256.54 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 25.4 0)
+			(at 256.54 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3171,25 +3357,19 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
-			(at 53.34 25.4 0)
+		(property "Description" "Mounting Hole without connection"
+			(at 256.54 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "13766fa5-04d3-4725-b7b8-e9e4d50171bf")
-		)
-		(pin "1"
-			(uuid "81e0270e-b78e-474f-b74c-3d527d93f398")
 		)
 		(instances
-			(project ""
+			(project "Simple_power_supply_board"
 				(path "/2f7d7295-8757-4933-8f00-f7ea6b7cab04"
-					(reference "F1")
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -3205,7 +3385,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b622102-e859-4b8b-a36e-e7fa49ab7bcd")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR0102"
 			(at 53.34 148.59 0)
 			(effects
 				(font
@@ -3255,7 +3435,7 @@
 		(instances
 			(project ""
 				(path "/2f7d7295-8757-4933-8f00-f7ea6b7cab04"
-					(reference "#PWR02")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -3271,7 +3451,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10b8db96-7a74-4550-8478-4c3b9f9ef0ed")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR0104"
 			(at 179.07 147.32 0)
 			(effects
 				(font
@@ -3321,7 +3501,142 @@
 		(instances
 			(project "Simple_power_supply_board"
 				(path "/2f7d7295-8757-4933-8f00-f7ea6b7cab04"
-					(reference "#PWR03")
+					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 256.54 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10dff6d7-d2cc-4429-bb4e-5724f138cbfc")
+		(property "Reference" "H3"
+			(at 259.08 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 259.08 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopOnly"
+			(at 256.54 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 256.54 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 256.54 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Simple_power_supply_board"
+				(path "/2f7d7295-8757-4933-8f00-f7ea6b7cab04"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:LD1117V50")
+		(at 53.34 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "197ea234-9a7b-4ce8-9df7-919c3ed37ea0")
+		(property "Reference" "U2"
+			(at 53.34 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LD1117V50"
+			(at 53.34 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 53.34 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/ld1117.pdf"
+			(at 55.88 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "800 mA Fixed Low Drop Positive Voltage Regulator (ldo). Max input 15V. Fixed Output 5.0V. TO-220-3"
+			(at 53.34 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d35559e7-55e3-44c8-9bcd-61d64cadabbf")
+		)
+		(pin "2"
+			(uuid "c7296b0f-0098-49cd-a323-2066a4a9bf21")
+		)
+		(pin "3"
+			(uuid "bf05dd39-8bec-44b4-9269-7fd3e8b2b035")
+		)
+		(instances
+			(project ""
+				(path "/2f7d7295-8757-4933-8f00-f7ea6b7cab04"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -3355,7 +3670,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 219.456 128.524 90)
 			(effects
 				(font
@@ -3478,7 +3793,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43f89558-da49-4c6a-99d0-b3616347ff9f")
-		(property "Reference" "J3"
+		(property "Reference" "J1"
 			(at 180.34 36.8299 0)
 			(effects
 				(font
@@ -3496,7 +3811,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 177.8 36.83 0)
 			(effects
 				(font
@@ -3532,7 +3847,71 @@
 		(instances
 			(project "Simple_power_supply_board"
 				(path "/2f7d7295-8757-4933-8f00-f7ea6b7cab04"
-					(reference "J3")
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 256.54 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4611d843-014d-4b49-993a-17a5147ed734")
+		(property "Reference" "H1"
+			(at 259.08 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 259.08 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopOnly"
+			(at 256.54 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 256.54 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 256.54 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/2f7d7295-8757-4933-8f00-f7ea6b7cab04"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -3548,7 +3927,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d49faec-abdb-4a4c-a6e7-b7a55d477ab5")
-		(property "Reference" "C5"
+		(property "Reference" "C6"
 			(at 170.18 123.4439 0)
 			(effects
 				(font
@@ -3602,80 +3981,7 @@
 		(instances
 			(project "Simple_power_supply_board"
 				(path "/2f7d7295-8757-4933-8f00-f7ea6b7cab04"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:L7805")
-		(at 53.34 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5330b769-9384-4577-8013-9b10738d5b81")
-		(property "Reference" "U1"
-			(at 53.34 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "L7805"
-			(at 53.34 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.975 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf"
-			(at 53.34 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252"
-			(at 53.34 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "84b04184-6e9c-4aaa-8360-a318cb8d62ab")
-		)
-		(pin "3"
-			(uuid "baeadd83-4153-4405-83c7-52d3f632e50d")
-		)
-		(pin "2"
-			(uuid "05f39468-3864-41fc-8969-dbe532f601d7")
-		)
-		(instances
-			(project ""
-				(path "/2f7d7295-8757-4933-8f00-f7ea6b7cab04"
-					(reference "U1")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -3752,6 +4058,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 256.54 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62e10208-48a8-4f5f-b52a-79ca50fca8d2")
+		(property "Reference" "H2"
+			(at 259.08 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 259.08 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopOnly"
+			(at 256.54 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 256.54 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 256.54 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Simple_power_supply_board"
+				(path "/2f7d7295-8757-4933-8f00-f7ea6b7cab04"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 190.5 64.77 0)
 		(unit 1)
@@ -3761,7 +4131,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6872abed-66b2-4ba7-aa92-c95df20a331c")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR0101"
 			(at 190.5 71.12 0)
 			(effects
 				(font
@@ -3811,7 +4181,7 @@
 		(instances
 			(project ""
 				(path "/2f7d7295-8757-4933-8f00-f7ea6b7cab04"
-					(reference "#PWR04")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -3827,7 +4197,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f34bf71-5935-46d0-aae0-30fe3858d5b8")
-		(property "Reference" "D4"
+		(property "Reference" "D3"
 			(at 166.6875 20.32 0)
 			(effects
 				(font
@@ -3879,7 +4249,7 @@
 		(instances
 			(project "Simple_power_supply_board"
 				(path "/2f7d7295-8757-4933-8f00-f7ea6b7cab04"
-					(reference "D4")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -3895,7 +4265,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72e83f6c-17c6-4f4b-ab2d-e1acd266cdcf")
-		(property "Reference" "J1"
+		(property "Reference" "J3"
 			(at 27.94 19.05 0)
 			(effects
 				(font
@@ -3911,7 +4281,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_BarrelJack:BarrelJack_GCT_DCJ200-10-A_Horizontal"
 			(at 29.21 28.956 0)
 			(effects
 				(font
@@ -3947,7 +4317,7 @@
 		(instances
 			(project ""
 				(path "/2f7d7295-8757-4933-8f00-f7ea6b7cab04"
-					(reference "J1")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -3963,7 +4333,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c77a5ce-07ca-418c-89a2-2862d819ccbc")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG0101"
 			(at 43.18 102.235 0)
 			(effects
 				(font
@@ -4013,7 +4383,7 @@
 		(instances
 			(project "Simple_power_supply_board"
 				(path "/2f7d7295-8757-4933-8f00-f7ea6b7cab04"
-					(reference "#FLG02")
+					(reference "#FLG0101")
 					(unit 1)
 				)
 			)
@@ -4047,7 +4417,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 91.186 124.714 90)
 			(effects
 				(font
@@ -4099,7 +4469,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0d0fd0d-8f62-46a8-a28f-68df1af11de1")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR0103"
 			(at 49.53 59.69 0)
 			(effects
 				(font
@@ -4149,7 +4519,7 @@
 		(instances
 			(project ""
 				(path "/2f7d7295-8757-4933-8f00-f7ea6b7cab04"
-					(reference "#PWR01")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -4165,7 +4535,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b18afe8e-c7bb-4f44-b8e7-f2d627d371d6")
-		(property "Reference" "C8"
+		(property "Reference" "C7"
 			(at 196.85 122.5549 0)
 			(effects
 				(font
@@ -4219,7 +4589,7 @@
 		(instances
 			(project "Simple_power_supply_board"
 				(path "/2f7d7295-8757-4933-8f00-f7ea6b7cab04"
-					(reference "C8")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -4332,7 +4702,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 210.82 39.37 0)
 			(effects
 				(font
@@ -4384,7 +4754,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7cade2e-9f06-4d86-853e-ee79aa172b22")
-		(property "Reference" "C4"
+		(property "Reference" "C3"
 			(at 69.85 118.7449 0)
 			(effects
 				(font
@@ -4438,7 +4808,156 @@
 		(instances
 			(project "Simple_power_supply_board"
 				(path "/2f7d7295-8757-4933-8f00-f7ea6b7cab04"
-					(reference "C4")
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PTC_FUSE:RUEF300")
+		(at 52.07 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d868bfba-e56f-4667-bfbe-0f9759a03b8c")
+		(property "Reference" "U1"
+			(at 52.07 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PTC_FUSE"
+			(at 52.07 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:PTC_FUSE"
+			(at 52.07 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 52.07 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Littelfuse Inc."
+			(at 52.07 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Polymeric PTC Resettable Fuse 30V 3 A Ih Through Hole Radial, Disc"
+			(at 52.07 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "Radial Littelfuse"
+			(at 52.07 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 52.07 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/RUEF300/Littelfuse/view-part/?ref=snap"
+			(at 52.07 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "RUEF300"
+			(at 52.07 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 52.07 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/RUEF300/Littelfuse/view-part/?ref=eda"
+			(at 52.07 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "P$2"
+			(uuid "7f4fa1a1-6559-45c2-8480-a4631eb60c2b")
+		)
+		(pin "P$1"
+			(uuid "05840048-26ee-4252-89ef-ded62a326cfb")
+		)
+		(instances
+			(project ""
+				(path "/2f7d7295-8757-4933-8f00-f7ea6b7cab04"
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -4454,7 +4973,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d96739e8-abd2-48f8-91cb-b6bb1370a376")
-		(property "Reference" "D3"
+		(property "Reference" "D5"
 			(at 222.25 118.4274 90)
 			(effects
 				(font
@@ -4517,7 +5036,7 @@
 		(instances
 			(project "Simple_power_supply_board"
 				(path "/2f7d7295-8757-4933-8f00-f7ea6b7cab04"
-					(reference "D3")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -4533,7 +5052,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de809cc8-be22-4e3e-8fdb-d127f4139755")
-		(property "Reference" "D5"
+		(property "Reference" "D4"
 			(at 198.4375 19.05 0)
 			(effects
 				(font
@@ -4585,7 +5104,7 @@
 		(instances
 			(project "Simple_power_supply_board"
 				(path "/2f7d7295-8757-4933-8f00-f7ea6b7cab04"
-					(reference "D5")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -4601,7 +5120,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4ef03ee-2449-4079-9628-8cd78be2eb25")
-		(property "Reference" "C1"
+		(property "Reference" "C4"
 			(at 76.2 30.7339 0)
 			(effects
 				(font
@@ -4655,7 +5174,7 @@
 		(instances
 			(project "Simple_power_supply_board"
 				(path "/2f7d7295-8757-4933-8f00-f7ea6b7cab04"
-					(reference "C1")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -4671,7 +5190,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd46dfa7-a92e-43b8-8ec4-0c3afd4a89ee")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG0102"
 			(at 59.055 50.8 0)
 			(effects
 				(font
@@ -4722,7 +5241,7 @@
 		(instances
 			(project ""
 				(path "/2f7d7295-8757-4933-8f00-f7ea6b7cab04"
-					(reference "#FLG01")
+					(reference "#FLG0102")
 					(unit 1)
 				)
 			)
@@ -4738,7 +5257,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd59028b-ef28-4abe-a3ba-3863e771bcb8")
-		(property "Reference" "C3"
+		(property "Reference" "C1"
 			(at 41.91 114.5539 0)
 			(effects
 				(font
@@ -4792,7 +5311,7 @@
 		(instances
 			(project "Simple_power_supply_board"
 				(path "/2f7d7295-8757-4933-8f00-f7ea6b7cab04"
-					(reference "C3")
+					(reference "C1")
 					(unit 1)
 				)
 			)
