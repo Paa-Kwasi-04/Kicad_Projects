@@ -1,4 +1,11 @@
-26230545692253452
+26234063626235644
+4_Pin_JST
+4_Pin_JST
+
+
+0
+6
+6
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -68900,6 +68907,13 @@ Yellow 5381 Series LED
 0
 2
 2
+Library
+EA_T123X-I2C
+http://www.lcd-module.de/pdf/doma/t123-i2c.pdf
+3 Line 12 character wide alpha numeric LCD
+0
+6
+6
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
