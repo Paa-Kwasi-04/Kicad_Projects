@@ -1,0 +1,43 @@
+Integrated Circuits (ICs)
+ATmega328-P – 1x (Microcontroller)
+TB6600 stepper motor
+MUX1 (TCA9548A) – 1x (I2C Multiplexer)
+5V/5A buck converter
+
+Sensor
+E3F1-3DN1 IR sensor
+Connectors
+CH1 to CH8 – 8x (JST GH 1x04 Connector)
+IR_INPUT – 1x (JST EH 1x03 Connector)
+IR_OUTPUT – 1x (JST EH 1x02 Connector)
+ISP – 1x (1x06 Pin Header)
+SS_BUTTON – 1x (JST EH 1x02 Connector)
+BUCK_IN, BUCK_OUT, POWER_IN, TB6600 POWER – 4x (2-pin Terminal Block)
+TB6600 CONTROL – 1x (6-pin Terminal Block)
+
+Passive Components
+Resistors
+Rir1 – 10kΩ
+Rir_in1 – 1kΩ
+Rled1 – 330Ω
+Rresetmcu1 – 10kΩ
+Rresetmux1 – 10kΩ
+Rscl1 – 4.7kΩ
+Rsda1 – 4.7kΩ
+Rssbutton1 – 10kΩ
+
+Capacitors
+Caref1 – 10nF
+Cavcc1 – 0.1µF
+Cir_in1 – 10µF
+Cpw1 – 470µF
+Cpw2 – 0.1µF
+Creset1 – 0.1µF
+Cx1, Cx2 – 22pF (each)
+
+Other Components
+Crystal – 16MHz
+Diode (D1sch1) – A-405 Type
+PTC_Resettable_Fuse – Bourns MF-RG400
+LED – 3.0mm THT
+Reset Button – 6mm Push Button Switch
