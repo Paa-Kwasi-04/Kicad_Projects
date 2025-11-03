@@ -1,4 +1,4 @@
-26333007752103040
+26334769908322560
 4_Pin_JST
 4_Pin_JST
 
@@ -68935,6 +68935,13 @@ Yellow 5381 Series LED
 0
 2
 2
+Library
+ESP32-WROOM-32
+Single 2.4 GHz Wi-Fi and Bluetooth combo chip https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf
+Single 2.4 GHz Wi-Fi and Bluetooth combo  chip
+0
+60
+39
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
