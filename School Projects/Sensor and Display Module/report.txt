@@ -1,3 +1,0 @@
-Updated EA_T123X-I2C from LCD to LCD1.
-Annotation complete.
-Annotation complete.
