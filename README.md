@@ -26,6 +26,9 @@ ESP32-based sensor hub for aggregating data from multiple I²C sensors with wire
 #### [ESP32S3 4-Layer USB-C Board](ESP32S3_4Layer_USB_C/)
 Advanced 4-layer PCB design featuring ESP32-WROOM-32 module with USB-C connectivity for professional embedded and IoT applications with improved signal integrity and EMC performance.
 
+#### [ESP32 Memory Display Board](ESP32_mem_display/)
+ESP32-based board with integrated ILI9341 320x240 SPI TFT LCD display and W25Q128JVS external SPI flash memory for IoT applications requiring user interface and data logging capabilities.
+
 ### Industrial Automation
 
 #### [Conveyor Belt Main Board](Conveyor_Belt_Main_Board/)
