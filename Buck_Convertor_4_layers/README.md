@@ -1,7 +1,7 @@
-# Buck Converter 4-Layer Board
+# Buck Convertor 4-Layer Board
 
 ## Description
-This is a 4-layer PCB design for a buck converter (step-down DC-DC converter) circuit. The 4-layer stackup provides improved thermal management, better power distribution, and enhanced electromagnetic compatibility. Buck converters are highly efficient switching regulators that step down voltage from a higher input voltage to a lower output voltage, making them ideal for power supply applications.
+This is a 4-layer PCB design for a buck convertor (step-down DC-DC convertor) circuit. The 4-layer stackup provides improved thermal management, better power distribution, and enhanced electromagnetic compatibility. Buck convertors are highly efficient switching regulators that step down voltage from a higher input voltage to a lower output voltage, making them ideal for power supply applications.
 
 ## Features
 - 4-layer PCB design for optimal performance:
@@ -14,4 +14,4 @@ This is a 4-layer PCB design for a buck converter (step-down DC-DC converter) ci
 - Suitable for various power supply applications
 - Compact and professional layout
 
-![Buck Converter 4-Layer Board](Buck_Convertor_4_layers.png)
+![Buck Convertor 4-Layer Board](Buck_Convertor_4_layers.png)
