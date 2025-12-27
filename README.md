@@ -12,6 +12,9 @@ An 8-channel relay board for controlling multiple high-power devices, suitable f
 #### [ACDC Convertor](ACDC_Convertor/)
 AC-to-DC converter circuit with rectification, filtering, and voltage regulation for stable DC power output from AC sources.
 
+#### [Buck Convertor 4-Layer Board](Buck_Convertor_4_layers/)
+4-layer PCB design for a buck convertor (step-down DC-DC convertor) with enhanced thermal management and EMI performance for efficient power supply applications.
+
 #### [Simple Power Supply Board](Simple_power_supply_board/)
 A regulated DC power supply with filtering and protection circuitry for powering electronic projects.
 
