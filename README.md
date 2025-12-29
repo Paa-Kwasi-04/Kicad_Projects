@@ -18,6 +18,9 @@ AC-to-DC converter circuit with rectification, filtering, and voltage regulation
 #### [Simple Power Supply Board](Simple_power_supply_board/)
 A regulated DC power supply with filtering and protection circuitry for powering electronic projects.
 
+#### [Motor Driver 4-Layer Board](Motor_Driver_4_layer/)
+4-layer PCB design for a brushed DC motor driver featuring DRV8871DDA H-bridge driver with PWM control, supporting up to 45V and 3.6A with current limiting protection for efficient motor control applications.
+
 ### Microcontroller Boards
 
 #### [ESP32 Dev Board Clone](ESP32%20Dev%20Board%20Clone/)
