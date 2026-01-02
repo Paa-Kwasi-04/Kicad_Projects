@@ -1,0 +1,13 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+A1,Pololu_Breakout-16_15.2x20.3mm,1,Pololu_Breakout_A4988,
+C1,0402,1,0.1µF,
+C3,0402,1,100µF,
+D1,0603,1,D_Schottky,
+D2,0603,1,TVS,
+F1,Fuse_BelFuse_0ZRE0005FF_L8.3mm_W3.8mm,1,Fuse,
+J1,JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical,1,Motor_Pins,
+J2,PinHeader_1x05_P2.54mm_Vertical,1,MCU_Pins,
+MICROSTEP,SW_DIP_SPSTx03_Slide_6.7x9.18mm_W6.73mm_P2.54mm_LowProfile_JPin,1,Microstep_Switch,
+PW_IN1,"TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal",1,PW_IN,
+"R1, R2, R3, R4, R5, R6, R7",0402,7,10KΩ,
+"TP_GND1, TP_MS1, TP_MS2, TP_MS3, TP_VIN1",TestPoint_Keystone_5000-5004_Miniature,5,TestPoint,
