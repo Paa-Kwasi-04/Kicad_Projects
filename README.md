@@ -15,11 +15,17 @@ AC-to-DC converter circuit with rectification, filtering, and voltage regulation
 #### [Buck Convertor 4-Layer Board](Buck_Convertor_4_layers/)
 4-layer PCB design for a buck convertor (step-down DC-DC convertor) with enhanced thermal management and EMI performance for efficient power supply applications.
 
+#### [Battery Power Management Board 4-Layer](Battery_Power_Management_Board_4_layers/)
+4-layer PCB design for a complete lithium-ion/polymer battery management system featuring TP4056 charger IC and DW01A protection IC with USB Type-C charging interface for portable electronics and IoT applications.
+
 #### [Simple Power Supply Board](Simple_power_supply_board/)
 A regulated DC power supply with filtering and protection circuitry for powering electronic projects.
 
 #### [Motor Driver 4-Layer Board](Motor_Driver_4_layer/)
 4-layer PCB design for a brushed DC motor driver featuring DRV8871DDA H-bridge driver with PWM control, supporting up to 45V and 3.6A with current limiting protection for efficient motor control applications.
+
+#### [Stepper Motor Driver 4-Layer Board](Stepper_Motor_Driver_4_layers/)
+4-layer PCB design for a stepper motor driver featuring A4988 driver IC with microstepping support (up to 1/16 step), supporting up to 35V and 2A per coil with built-in protection for CNC machines, 3D printers, and robotics applications.
 
 ### Microcontroller Boards
 
